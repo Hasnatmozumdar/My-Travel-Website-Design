@@ -36,10 +36,11 @@
      margin: 44px;
      font-size: 18px;
      font-weight: 400;
-
  }
 
  /*nav section end*/
+
+ /*banner section start*/
  .banner {
      background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
      width: 1170px;
@@ -82,3 +83,36 @@
      gap: 24px;
      border-radius: 8px;
  }
+
+ /*banner section end*/
+
+ /*description*/
+ .tours {
+     color: #131318;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .description {
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     padding: 10px 90px 0px 70px;
+ }
+
+ .image4 {
+     float: right;
+     width: 540px;
+     height: 550px;
+     border-radius: 16px;
+     padding: 10px 70px 10px 90px;
+ }
+
+ .btn-primary-s {
+     width: 174px;
+     height: 52px;
+ }
+
+ /*description*/
