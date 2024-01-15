@@ -1,5 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;800;900&display=swap');
 
-body{
-    font-family: 'Open Sans', sans-serif;
-}
+ * {
+     font-family: 'Open Sans', sans-serif;
+ }
+/*nav section start*/
+
+ .nav-container {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .text-primary{
+    color: #FF5400;
+ }
+
+ .nav-title{
+font-size: 36px;
+font-weight: 800;
+margin-right: auto;
+ }
+
+ .group40071 {
+     width: 48px;
+     height: 56.008px;
+     margin-bottom: 25px;
+ }
+
+ .nav-container ul {
+     display: flex;
+ }
+
+ .nav-container li {
+    color: #424247;
+     list-style: none;
+     margin: 44px;
+     font-size: 18px;
+     font-weight: 400;
+     
+ }
+ /*nav section end*/
