@@ -45,7 +45,6 @@
      background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
      width: 1170px;
      height: 500px;
-     flex-shrink: 0;
      border-radius: 16px;
      margin: auto;
  }
@@ -67,12 +66,17 @@
      padding: 0px 250px 2px 250px;
  }
 
+ .go {
+     background-color: aqua;
+ }
+
  .btn-primary {
      display: inline-flex;
-     padding: 16px;
+     padding: 10px;
      align-items: flex-start;
-     gap: 24px;
+     gap: 26px;
      border-radius: 8px;
+     margin: 0px 25px 0px 135px;
  }
 
  .btn-primary-s {
@@ -80,8 +84,9 @@
      display: inline-flex;
      padding: 16px;
      align-items: flex-start;
-     gap: 24px;
+     gap: 26px;
      border-radius: 8px;
+
  }
 
  /*banner section end*/
@@ -113,6 +118,7 @@
  .btn-primary-s {
      width: 174px;
      height: 52px;
+     margin: 25px 25px 0px 60px;
  }
 
  /*description*/
@@ -134,4 +140,363 @@
      line-height: 26px;
      margin-top: 70px;
      padding: 10px 70px 10px 90px;
+ }
+
+ .Maldive {
+     width: 650px;
+     height: 350px;
+     border-radius: 16px;
+     margin-inline: 5px;
+ }
+
+ .indonesia {
+     width: 650px;
+     height: 300px;
+     border-radius: 16px;
+     margin-inline: 5px;
+ }
+
+ .srilonka {
+     width: 400px;
+     height: 286px;
+     border-radius: 16px;
+     margin-inline: 10px;
+     margin-top: 10px;
+ }
+
+ .north-america {
+     width: 500px;
+     height: 286px;
+     border-radius: 16px;
+     margin-inline: 10px;
+     margin-top: 10px;
+ }
+
+ .kashmir {
+     width: 300px;
+     height: 286px;
+     border-radius: 16px;
+     margin-inline: 10px;
+     margin-top: 10px;
+ }
+
+ .bangladesh {
+     width: 650px;
+     height: 300px;
+     border-radius: 16px;
+     margin-inline: 10px;
+     margin-top: 10px;
+ }
+
+ .bandarban {
+     width: 750px;
+     height: 300px;
+     border-radius: 16px;
+     margin-inline: 10px;
+     margin-top: 10px;
+ }
+
+ .finilizing {
+     color: #131318;
+     text-align: center;
+     font-size: 30px;
+     font-weight: 700;
+     margin-bottom: 5px;
+ }
+
+ .season-budget {
+     color: rgba(19, 19, 24, 0.70);
+     text-align: center;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 26px;
+     margin-top: 5px;
+     padding: 10px 70px 10px 90px;
+ }
+
+ .nav-container-2 {
+     display: flex;
+ }
+
+ .box1 {
+     border-radius: 10px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: #FBB56333;
+     width: 600px;
+     margin: 10px 24px 20px 15px;
+ }
+
+ .icon {
+     width: 75px;
+     height: 64px;
+     padding: 10px;
+     margin: 0px 25px 0px 40px;
+ }
+
+ .hotel {
+     color: #131318;
+     text-align: start;
+     font-size: 24px;
+     font-weight: 800;
+     padding: 10px;
+     margin: 0px 25px 0px 40px;
+
+ }
+
+ .hotel-descr {
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 200px;
+     line-height: 26px;
+     width: 450px;
+     text-align: end;
+     margin: 0px 5px 0px 2px;
+ }
+
+ .box2 {
+     border-radius: 10px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     width: 600px;
+     float: right;
+     background: rgba(41, 206, 246, 0.05);
+     margin: 10px 24px 20px 15px;
+ }
+
+ .map {
+     width: 75px;
+     height: 64px;
+     padding: 10px;
+     margin: 0px 25px 0px 40px;
+ }
+
+ .service {
+     color: #131318;
+     text-align: start;
+     font-size: 24px;
+     font-weight: 800;
+     padding: 10px;
+     margin: 0px 25px 0px 40px;
+ }
+
+ .map-descr {
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     width: 486px;
+ }
+
+ .box3 {
+     border-radius: 10px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: #FBB56333;
+     width: 600px;
+     margin: 10px 24px 20px 350px;
+ }
+
+ .price {
+     width: 75px;
+     height: 64px;
+     padding: 10px;
+     margin: 0px 25px 0px 20px;
+ }
+
+ .best {
+     color: #131318;
+     text-align: start;
+     font-size: 24px;
+     font-weight: 800;
+     padding: 10px;
+     margin: 0px 25px 0px 40px;
+ }
+
+ .price-descr {
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     width: 486px;
+ }
+
+ .deal {
+     color: #131318;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 800;
+     margin-bottom: 10px;
+ }
+
+ .dolor {
+     color: rgba(19, 19, 24, 0.70);
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+ }
+
+ .banner2 {
+     width: 1170px;
+     height: 500px;
+     border-radius: 16px;
+     padding: 40px;
+ }
+
+ .btn-primary-s2 {
+     background-color: #FF5400;
+     padding: 16px;
+     align-items: center;
+     gap: 26px;
+     border-radius: 8px;
+     margin: 0px 25px 0px 500px;
+     color: #FFF;
+     font-size: 20px;
+     font-weight: 800;
+ }
+
+ .box4 {
+     border-radius: 10px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: #FBB56333;
+     width: 600px;
+     margin: 30px 24px 20px 25px;
+ }
+
+ .perfect {
+     color: #131318;
+     font-size: 40px;
+     font-weight: 800;
+     line-height: 60px;
+ }
+
+ .dolor-2 {
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+ }
+
+ .extra {
+     color: #131318;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 26px;
+ }
+
+ .mountain {
+     float: right;
+     width: 610px;
+     height: 424px;
+     border-radius: 16px;
+ }
+
+ .box5 {
+     border-radius: 10px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     width: 10px;
+     text-align: justify;
+     margin: 2px 0px 20px 30px;
+ }
+
+ .latter {
+     color: #131318;
+     font-size: 24px;
+     font-weight: 20px;
+ }
+
+ .sing-up {
+     width: 350px;
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+ }
+
+ .primary {
+     border-radius: 8px;
+     background: rgba(19, 19, 24, 0.05);
+     width: 300px;
+     height: 50px;
+     text-align: justify;
+     gap: 50px;
+     width: 393px;
+     margin: 2px 0px 20px 0px;
+ }
+
+ .subscribe {
+     border-radius: 8px;
+     background: #FF5400;
+     width: 393px;
+     height: 52px;
+     flex-shrink: 0;
+ }
+
+ /*footer*/
+ .box6 {
+     display: flex;
+     margin: 10px 50px 10px 500px;
+     align-items: center;
+     width: 300px;
+ }
+
+ .footer-descr {
+     color: #5A5A5D;
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     width: 769px;
+     margin: 2px 50px 10px 180px;
+ }
+
+ .social {
+     align-items: center;
+     width: 174.322px;
+     height: 24px;
+     margin: 2px 50px 10px 550px;
+ }
+
+ .end {
+     color: #131318;
+     font-family: Inter;
+     font-size: 16px;
+     font-weight: 300;
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ .perfect
+ /*responsibe style*/
+
+ .hide {
+     display: none;
+ }
+
+ /*mobile device*/
+ @media screen and (max-width:576px) {
+
+     .nav-container,
+     nav-title,
+     banner,
+     description,
+     tours,
+     btn-primary-s,
+     interests,
+     finilizing,
+     season-budget,
+     nav-container-2,
+     hotel,
+     hotel-descr,
+     service,
+     map-descr,
+     best,
+     price-descr,
+     deal,
+     dolor,extra
+     {
+     flex-direction: column;
+ }
+ }
+
+ footer{
+    padding: 10px;
  }
